@@ -1,15 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import { ListaEstudiantes } from "./components/ListaEstudiantes";
-import { ListaEstudiantesClases } from "./components/ListaEstudiantesClases";
+import { Form } from './components/Formulario';
+
 
 export function App() {
+  
   return (
     <>
-    <h1>Lista de estudiantes 1</h1>
-    <ListaEstudiantes/>
-    <h2>Lista de estudiantes 2</h2>
-    <ListaEstudiantesClases/>
+    <h1>Tarea2</h1>
+    <Form />
   </>
   );
 } 
