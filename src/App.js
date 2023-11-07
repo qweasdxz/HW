@@ -1,16 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import { Form } from './components/Formulario';
+import { Buscar } from './components/API';
 
 
 export function App() {
   
   return (
     <>
-    <h1>Tarea2</h1>
-    <Form />
+    <h1>Tarea3</h1>
+    <Buscar/>
   </>
   );
 } 
-
-
